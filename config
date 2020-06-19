@@ -146,8 +146,10 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 #bindsym $mod+Right workspace next
 #bindsym $mod+Left workspace prev
 # PageUp & PageDown
-bindsym $mod+Prior workspace prev
-bindsym $mod+Next workspace next
+#bindsym $mod+Prior workspace prev
+#bindsym $mod+Next workspace next
+bindsym $mod+Prior workspace next
+bindsym $mod+Next workspace prev
 
 # goto urgent window
 bindsym $mod+u [urgent=latest] focus
