@@ -211,5 +211,12 @@ for_window [title="^Android Emulator.*"] floating enable
 # finds out, if available)
 bar {
         position top
+        output primary
+        tray_output primary
         status_command i3status
+}
+bar {
+        position top
+        output nonprimary
+        tray_output none
 }
